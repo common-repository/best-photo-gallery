@@ -1,0 +1,113 @@
+.toplevel_page_sp8ce-portfolio .dashicons-hammer:before {
+	color: #f16334 !important;
+}
+
+.sp8ce-portfolio h1 {
+	margin: 0 200px 20px 0;
+    padding: 0;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 1.3em;
+}
+
+.sp8ce-portfolio h3 {
+	margin: 0 00px 15px 0 !important;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.45em;
+    letter-spacing: 0;
+    color: #23282d;
+}
+
+.sp8ce-portfolio .nav-tab-wrapper {
+	border-bottom: 1px solid #ccc;
+}
+
+.sp8ce-portfolio .nav-tab {
+	float: left;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-left: .5em;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    background: #e5e5e5;
+    color: #555;
+	padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.sp8ce-portfolio .nav-tab:hover {
+	background-color: #fff;
+    color: #444;
+}
+
+.sp8ce-portfolio .nav-tab-active, .sp8ce-portfolio .nav-tab-active:hover {
+	border-bottom: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    color: #000;
+}
+
+.sp8ce-portfolio .about-title {
+	margin: 0;
+    padding: 0;
+    font-size: 23px;
+    line-height: 1.64em;
+	color: #23282d;
+}
+
+.sp8ce-portfolio .icon-grid {
+	width: 50%;
+}
+
+.sp8ce-portfolio .grid-item {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: inline-block;
+}
+
+.sp8ce-portfolio .grid-item span {
+	font-size: 4em;
+}
+
+.sp8ce-portfolio .number-circle {
+	width: 85px;
+    height: 85px;
+    line-height: 85px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #F9F9F9;
+    border-radius: 50%;
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+	margin-right: 5px;
+}
+
+.sp8ce-portfolio .row-of-three {
+	width: 100%;
+}
+
+.sp8ce-portfolio .row-of-three .column {
+	width: 33.3333%;
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.sp8ce-portfolio .tab-about, .sp8ce-portfolio .tab-directions {
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.sp8ce-portfolio img.theme-image {
+	width: 95%;
+	margin: 5px;
+}

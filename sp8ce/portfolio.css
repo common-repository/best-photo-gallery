@@ -1,0 +1,109 @@
+.sp8ce-portfolio .sp8ce-pagination {
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+	display: block;
+	clear: both;
+}
+
+.sp8ce-portfolio .pagination-button {
+    color: #FFFFFF;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 0px 17px;
+    border: 1px solid #303030;
+    line-height: 38px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    background-color: #303030;
+    margin-bottom: 5px
+}
+
+.sp8ce-portfolio .pagination-button:hover,
+.sp8ce-portfolio .pagination-button.selected {
+    border-color: #303030;
+    color: #303030;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.13);
+    background-color: #FFFFFF;
+}
+
+.sp8ce-portfolio .filter-container {
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+
+.sp8ce-portfolio div.category-filter, .sp8ce-portfolio div.category-filter-dropdown {
+    display: inline-block;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px 20px;
+	color: gray;
+	background-color: white;
+}
+
+.sp8ce-portfolio div.category-filter:hover {
+	color: black;
+	border: 1px solid black;
+}
+
+.sp8ce-portfolio div.category-filter:hover div.category-filter-dropdown {
+	display: block;
+}
+
+.sp8ce-portfolio div.category-filter {
+	height: 35px;
+	position: relative;
+	margin-bottom: 5px;
+	min-width: 190px;
+}
+
+.sp8ce-portfolio div.category-filter-dropdown {
+	position: absolute;
+	top: 35px;
+	z-index: 500;
+	display: none;
+}
+
+.sp8ce-portfolio div.category-filter, .sp8ce-portfolio div.filter-category {
+	cursor: pointer;
+}
+
+.sp8ce-portfolio div.filter-category.selected, .sp8ce-portfolio div.filter-category:hover {
+	color: black;
+}
+
+.pp_hoverContainer {
+	display: none !important;
+}
+
+.sp8ce-portfolio div.loading {
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+
+.sp8ce-portfolio div.loading-inner {
+	background-image: url(img/loading-large.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+}
+
+.sp8ce-portfolio .sp8ce-powered-by {
+	text-align: center; 
+	font-weight: bold; 
+	clear: both;
+}
+
+.sp8ce-portfolio .sp8ce-powered-by a {
+	color: black; 
+	text-decoration: none;
+}
